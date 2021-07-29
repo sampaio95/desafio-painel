@@ -57,7 +57,7 @@
   </div>
   <div>
 <fieldset>
-      <legend>Selecione como deseja que entremos em contato com você:</legend>
+      <legend>Selecione a melhor forma de contato</legend>
       <input type="checkbox" name="forma-de-contato" id="ligacao" value="1"> <label for="ligacao">Ligação</label>
       <input type="checkbox" name="forma-de-contato" id="wpp" value="2"> <label for="wpp">Whatsapp</label>
       <input type="checkbox" name="forma-de-contato" id="contato-email" value="3"> <label
@@ -110,8 +110,26 @@
     <option value="sp">São Paulo</option> 
     <option value="to">Tocantins</option> 
    </select>
+</fieldset>
+  </div>
+  <div>
+    <fieldset>
+    <legend>Infomação de curso</legend>
+    <label for="corso">Escolha o curso que deseja iniciar com a gente: </label>
+    <select name="curso" id="corso">
+    <option value="shc">HTML E CSS</option>
+    <option value="rl">Raciocínio lógico </option>
+    <option value="js">JavaScript</option>
+    <option value="php">PHP</option>
+    </select>
+    <label for="nivel">Selecione o nível de conhecimento da linguagem selecionada acima:</label>
+    <input type="range" name="nivel" min="0" max="10" id="nivel">
+    </fieldset>
+</div>
+    <br>
+    <div>
+  <fieldset>
     <input type="submit" id="enviar" onclick="Enviar();" value="Enviar" />
-
   </fieldset>
   </div>
   </form>    
