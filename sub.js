@@ -1,3 +1,10 @@
+function validateForm() {
+  var x = document.getElementById("nome");
+ "" || x == null) {
+    alert("Favor preencher o campo nome");
+    return false;
+  }
+}
 
 function Enviar() {
 
